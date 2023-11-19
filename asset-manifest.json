@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-medical-pager/static/css/main.32687588.css",
+    "main.js": "/react-medical-pager/static/js/main.7ff8b81e.js",
+    "static/js/141.11ea37e2.chunk.js": "/react-medical-pager/static/js/141.11ea37e2.chunk.js",
+    "static/js/209.b9141f0c.chunk.js": "/react-medical-pager/static/js/209.b9141f0c.chunk.js",
+    "static/js/717.6374386a.chunk.js": "/react-medical-pager/static/js/717.6374386a.chunk.js",
+    "static/js/829.726cd660.chunk.js": "/react-medical-pager/static/js/829.726cd660.chunk.js",
+    "static/media/EmojiOneColor.woff2": "/react-medical-pager/static/media/EmojiOneColor.90ee5fb894c8d349bc54.woff2",
+    "static/media/NotoColorEmoji-flags.woff2": "/react-medical-pager/static/media/NotoColorEmoji-flags.148141acfb7ce6e4f383.woff2",
+    "static/media/singUp.jpg": "/react-medical-pager/static/media/singUp.2851c0ea51b501168276.jpg",
+    "static/media/p-logo.png": "/react-medical-pager/static/media/p-logo.8b00839d5d6f93d048ae.png",
+    "static/media/logout.png": "/react-medical-pager/static/media/logout.8bdb369f42d0720b017e.png",
+    "index.html": "/react-medical-pager/index.html",
+    "main.32687588.css.map": "/react-medical-pager/static/css/main.32687588.css.map",
+    "main.7ff8b81e.js.map": "/react-medical-pager/static/js/main.7ff8b81e.js.map",
+    "141.11ea37e2.chunk.js.map": "/react-medical-pager/static/js/141.11ea37e2.chunk.js.map",
+    "209.b9141f0c.chunk.js.map": "/react-medical-pager/static/js/209.b9141f0c.chunk.js.map",
+    "717.6374386a.chunk.js.map": "/react-medical-pager/static/js/717.6374386a.chunk.js.map",
+    "829.726cd660.chunk.js.map": "/react-medical-pager/static/js/829.726cd660.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32687588.css",
+    "static/js/main.7ff8b81e.js"
+  ]
+}
