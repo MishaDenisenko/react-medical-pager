@@ -140,7 +140,7 @@ body {
     transition: 0.3s ease;
 }
 
-.auth__form-container_fields-content_button button:disabled{
+.auth__form-container_fields-content_button button:disabled {
     background: transparent;
     opacity: 80%;
     cursor: default;
@@ -318,7 +318,7 @@ body {
     width: 100%;
 }
 
-.channel_message__container{
+.channel_message__container {
     padding: 0 40px;
 }
 
@@ -380,8 +380,8 @@ body {
     margin-right: 10px;
 }
 
-.str-chat__list--thread
-.str-chat__message-simple__actions__action--options
+.str-chat__list--thread,
+.str-chat__message-simple__actions__action--options,
 .str-chat__message-actions-box {
     left: initial;
     right: 100%;
@@ -690,12 +690,12 @@ body {
     cursor: pointer;
 }
 
-.create-channel__button-wrapper button{
+.create-channel__button-wrapper button {
     margin: 20px 0;
 }
 
 
-.create-channel__button-wrapper button:disabled{
+.create-channel__button-wrapper button:disabled {
     background: #b1b1b1;
     cursor: default;
 }
@@ -795,7 +795,7 @@ body {
     overflow-block: scroll;
 }
 
-.edit-channel__container-title{
+.edit-channel__container-title {
     padding: 0 20px;
     font-family: Helvetica Neue, sans-serif;
 }
@@ -822,13 +822,13 @@ body {
     cursor: pointer;
 }
 
-.edit-channel__container_members{
+.edit-channel__container_members {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
 }
 
-.edit-channel__container_members button{
+.edit-channel__container_members button {
     background: var(--primary-color);
     font-family: Helvetica Neue, sans-serif;
     font-weight: bold;
@@ -841,7 +841,7 @@ body {
     border: none;
 }
 
-.edit-channel__container_members button:disabled{
+.edit-channel__container_members button:disabled {
     background: #b1b1b1;
     opacity: 80%;
     cursor: default;
@@ -887,7 +887,7 @@ body {
 }
 
 
-.error{
+.error {
     position: relative;
 }
 
@@ -901,7 +901,7 @@ body {
     color: var(--primary-color-red);
 }
 
-.error::after{
+.error::after {
     position: absolute;
     content: attr(data);
     right: 10%;
@@ -909,7 +909,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: var(--primary-color-red);
 }
-.channel-name-input__wrapper.error::after{
+
+.channel-name-input__wrapper.error::after {
     position: absolute;
     content: attr(data);
     left: 20px;
@@ -929,7 +930,7 @@ body {
 }
 
 .edit-channel__button-wrapper p,
-.edit-channel__button-wrapper button{
+.edit-channel__button-wrapper button {
     background: var(--primary-color);
     font-family: Helvetica Neue, sans-serif;
     font-weight: bold;
@@ -942,17 +943,17 @@ body {
     cursor: pointer;
 }
 
-.edit-channel__button-wrapper button{
+.edit-channel__button-wrapper button {
     margin: 20px 20px 20px 0;
 }
 
 
-.edit-channel__button-wrapper button:disabled{
+.edit-channel__button-wrapper button:disabled {
     background: #b1b1b1;
     cursor: default;
 }
 
-.edit-channel__button-wrapper p.edit-channel__delete-button{
+.edit-channel__button-wrapper p.edit-channel__delete-button {
     background: var(--primary-color-red);
 }
 

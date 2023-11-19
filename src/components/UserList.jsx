@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import {Avatar, useChatContext} from "stream-chat-react";
+import {useChatContext} from "stream-chat-react";
 
 import {InviteIcon} from "../assets";
 import {UserItem} from "./";
@@ -17,7 +17,7 @@ const ListContainer = ({children}) => {
     )
 }
 
-const UserList = ({selectedUsers, setSelectedUsers, members, type, setIsDisabledButton}) => {
+const UserList = ({setSelectedUsers, members, type, setIsDisabledButton}) => {
     const {client} = useChatContext();
     const [users, setUsers] = useState([]);
     const [listEmpty, setListEmpty] = useState(false);

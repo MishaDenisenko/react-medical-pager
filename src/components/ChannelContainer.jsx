@@ -5,8 +5,6 @@ import {ChannelInner, CreateChannel, EditChannel, TeamMessage} from "./";
 
 
 const ChannelContainer = ({isCreating, isEditing, setIsCreating, setIsEditing, createType}) => {
-    const {channel} = useChatContext();
-
     if (isCreating){
         return (
             <div className='channel__container'>

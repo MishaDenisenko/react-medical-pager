@@ -5,9 +5,8 @@ import {CloseCreateChannel} from "../assets";
 
 
 const CreateChannel = ({createType, setIsCreating}) => {
-    const {client, setActiveChannel, channel} = useChatContext();
+    const {client, setActiveChannel} = useChatContext();
     const [selectedUsers, setSelectedUsers] = useState([client.userID || '']);
-    const [isCorrectInput, setIsCorrectInput] = useState(true);
     const [isDisabledButton, setIsDisabledButton] = useState(true);
 
     const [channelName, setChannelName] = useState('');

@@ -1,8 +1,7 @@
 import React from 'react';
 import inputController from "../controllers/inputController";
 
-const ChannelNameInput = ({channelName = '', setChannelName, setIsCorrectInput, setIsDisabledButton}) => {
-    let isCorrect
+const ChannelNameInput = ({channelName = '', setChannelName, setIsDisabledButton}) => {
     const handleBlur = (e) => {
         const node = e.target.parentElement;
 

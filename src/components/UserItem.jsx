@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import {Avatar} from "stream-chat-react";
-import {InviteIcon} from "../assets";
 
 const UserItem = ({user, setSelectedUsers, select=true, selectIcon}) => {
     const [selected, setSelected] = useState(false);
